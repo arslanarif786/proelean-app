@@ -1,0 +1,1 @@
+[22-Oct-2021 13:37:26 UTC] PHP Fatal error:  Cannot use App\Http\Controllers\Api\BuyerController as BuyerController because the name is already in use in /home2/akihuybz/proelean/routes/api.php on line 7

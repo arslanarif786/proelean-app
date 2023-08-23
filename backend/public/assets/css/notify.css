@@ -1,0 +1,73 @@
+.notifyjs-golden-base {
+    white-space: nowrap;
+    background-color: #F4CB33;
+    background-image: linear-gradient(to bottom right, #6e6b6b, #F4CB33);
+    padding-top: 15px;
+    height: 35px;
+    width: auto;
+    border-radius: 8px;
+    color: white;
+    margin-right: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.notifyjs-red-base {
+    white-space: nowrap;
+    background-color: #de0202;
+    background-image: linear-gradient(to bottom right, #6e6b6b, #de0202);
+    padding-top: 15px;
+    height: 35px;
+    width: auto;
+    border-radius: 8px;
+    color: white;
+    margin-right: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.image_position {
+    max-height: 150px;
+    width: fit-content;
+}
+
+.lds-ripple {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.lds-ripple div {
+    position: absolute;
+    border: 4px solid #f4cb33;
+    opacity: 1;
+    border-radius: 50%;
+    animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+
+.lds-ripple div:nth-child(2) {
+    animation-delay: -0.5s;
+}
+#L5{
+      width: 100px;
+      height: 100vh;
+      margin: 20px;
+    }
+@keyframes lds-ripple {
+    0% {
+        top: 36px;
+        left: 36px;
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+
+    100% {
+        top: 0px;
+        left: 0px;
+        width: 72px;
+        height: 72px;
+        opacity: 0;
+    }
+}
